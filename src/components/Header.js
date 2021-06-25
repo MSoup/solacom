@@ -10,7 +10,7 @@ const Header = props => (
     <p> | </p>
     <a href="https://solanets.com/wp/">Japanese Site</a>
     <nav>
-      <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">
+      <a className="menu-link" onClick={props.onToggleMenu} href="#/">
         Menu
       </a>
     </nav>

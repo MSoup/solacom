@@ -1,8 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-
-import pic11 from '../assets/images/pic11.jpg'
+import endPoint from '../assets/images/cybersecurity/endpoint_protection.jpeg'
 
 const Test = props => (
   <Layout>
@@ -15,10 +14,10 @@ const Test = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>TEST</h1>
+            <h1>Cybersecurity</h1>
           </header>
           <span className="image main">
-            <img src={pic11} alt="" />
+            <img src={endPoint} alt="" />
           </span>
           <p>
             Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
