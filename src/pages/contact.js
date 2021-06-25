@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import Contact from '../components/Contact'
 import pic11 from '../assets/images/pic11.jpg'
 
 const ContactUs = props => (
@@ -15,7 +14,7 @@ const ContactUs = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>Contact Us</h1>
+            <h1>Contact Page</h1>
           </header>
           <span className="image main">
             <img src={pic11} alt="" />

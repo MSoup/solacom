@@ -2,8 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/layout";
 
-import verticalFarming from "../assets/images/verticalFarming.png";
-import verticalFarming2 from "../assets/images/verticalFarming2.jpg";
+import verticalFarming from "../assets/images/farm/verticalFarming.png";
+import verticalFarming2 from "../assets/images/farm/verticalFarming2.jpg";
 
 const FarmAutomationPage = props => (
   <Layout>
@@ -36,13 +36,13 @@ const FarmAutomationPage = props => (
           <h2>The Project</h2>
 
           <div className="grid-wrapper">
-            <div className="col-6">
+            <div className="col-5">
               <h3>Sem turpis amet semper</h3>
               <span className="image secondary">
-                <img src={verticalFarming2} alt="" />
+                <img src={verticalFarming2} alt="" className="" />
               </span>
             </div>
-            <div className="col-6">
+            <div className="col-7">
               <h3>Magna odio tempus commodo</h3>
               <p>
                 In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim
