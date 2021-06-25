@@ -1,22 +1,60 @@
-# gatsby-starter-forty
+# Solacom English Site
 
-**This is a starter for Gatsby.js V2.**
+## Abstract
 
-**The older V1 version of this starter can be found on the v1 branch**
+The *Sola.com English Concept Site* is a project I created as an intern at Sola.com. I sincerely hope it can be of use. Here are the conditions of the internship:
 
-Gatsby.js V2 starter based on the Forty site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+| Internship Details      |                                                     |
+| ----------------------- | --------------------------------------------------- |
+| Intern Name             | Daven Lu                                            |
+| Internship Company Name | Sola.com                                            |
+| Internship Duration     | March 2021 - August 2021 (6 months)                 |
+| Purpose                 | Programming Skill Development                       |
+| Tasks                   | Scripting, web development, python, openCV, reactJS |
+| Final Project           | Remake Sola.com website using web frameworks        |
+| Final Project URL       | URL_HERE                                            |
+
+## Purpose
+
+My motives for creating this website are three-fold:
+
+1. Sola.com has many international students and interns
+2. Many people viewing the Sola.com website are not native level Japanese speakers
+3. I wanted to give back to Sola.com for the opportunity to intern with the company
 
 ## Preview
 
-https://gatsby-forty.surge.sh
+URL_HERE
 
-## Installation
+## Credits
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-forty https://github.com/codebushi/gatsby-starter-forty`
+This website would not be possible without the boilerplate and theme created by HTML5 UP. 
 
-Run `gatsby develop` in the terminal to start the dev site.
+### Theme
+HTML5 UP allows people to use their website templates to create seamless websites that are:
+
+- fully responsive
+- built on HTML5 and CSS3
+- super customizable
+- **FREE** under the Creative Commons
+
+### Boilerplate
+Can be found here:  
+https://github.com/codebushi/gatsby-starter-forty
+
+
+## What I learned
+
+
+
+## Challenges
+
+
+
+## Other Contributions to Sola.com
+
+
+
 
 ## CSS Grid
 
