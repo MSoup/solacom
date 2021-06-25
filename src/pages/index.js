@@ -32,35 +32,35 @@ class HomeIndex extends React.Component {
                 <h3>Farm Automation</h3>
                 <p>Creating more efficient farming systems</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/farmAutomation" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>Omni Oculus</h3>
                 <p>Finding the truth in a world controlled by social media</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/omnioculus" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>Cybersecurity</h3>
                 <p>Securing your digital assets</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/cybersecurity" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
                 <h3>System Engineering</h3>
                 <p>Need help on a project? Consult us.</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/systemengineering" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
                 <h3>Join The Team</h3>
                 <p>Internship | Contract | Full Time Positions Available</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/jointeam" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
@@ -75,16 +75,22 @@ class HomeIndex extends React.Component {
               <header className="major">
                 <h2>What is Sola.com?</h2>
               </header>
-              <p>
-                At Sola.com, we specialize in three things: Cybersecurity,
-                Software Design, and System Engineering. We believe that the
-                world can become a better place through equipping our users with
-                knowledge.
+              <p className="centered">
+                At Sola.com, we specialize in three things: 
+                <br></br>
+                Cybersecurity
+                <br></br>
+                Software Design
+                <br></br>
+                System Engineering. 
+                <br></br>
+
+                The world can become a better place through equipping our users with knowledge.
               </p>
               <ul className="actions">
                 <li>
                   <Link to="/landing" className="button next">
-                    Get Started
+                    See our blog here
                   </Link>
                 </li>
               </ul>
