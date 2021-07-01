@@ -1,14 +1,15 @@
-# Solacom English Site
+# Solacom Report 
 
 ## Abstract
 
-The *Sola.com English Concept Site* is a project I created as an intern at Sola.com. I sincerely hope it can be of use. Here are the conditions of the internship:
+The *Sola.com English Concept Site* is a project I, Daven Lu, created as an intern at Sola.com. The below is the conditions of the internship:
 
 | Internship Details      |                                                     |
 | ----------------------- | --------------------------------------------------- |
 | Intern Name             | Daven Lu                                            |
 | Internship Company Name | Sola.com                                            |
 | Internship Duration     | March 2021 - August 2021 (6 months)                 |
+| Team                    | 1 (Solo Project)                                    |
 | Purpose                 | Programming Skill Development                       |
 | Tasks                   | Scripting, web development, python, openCV, reactJS |
 | Final Project           | Remake Sola.com website using web frameworks        |
@@ -25,6 +26,16 @@ My motives for creating this website are three-fold:
 ## Preview
 
 URL_HERE
+
+## Website Guide
+
+#### Homepage
+
+![Homepage](homepage.gif) 
+
+The homepage consists of a clean dark overlay 
+
+
 
 ## Credits
 

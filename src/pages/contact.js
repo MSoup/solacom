@@ -1,12 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import pic11 from '../assets/images/pic11.jpg'
 
 const ContactUs = props => (
   <Layout>
     <Helmet>
-      <title>Contact Page</title>
+      <title>Solacom - Contact Page</title>
       <meta name="Contact Solacom" content="Contact Solacom Form" />
     </Helmet>
 
@@ -16,9 +15,7 @@ const ContactUs = props => (
           <header className="major">
             <h1>Contact Page</h1>
           </header>
-          <span className="image main">
-            <img src={pic11} alt="" />
-          </span>
+
           <p>
             Interdum et malesuada fames ac ante ipsum primis in faucibus.
             Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
