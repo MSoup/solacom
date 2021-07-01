@@ -4,14 +4,14 @@ const BannerLanding = props => (
   <section id="banner" className="style2">
     <div className="inner">
       <header className="major">
-        <h1>Omni Oculus</h1>
+        <h1>Blog Page</h1>
       </header>
       <div className="content">
         <p>
-          The eyes that detect world events
+          Sola.com news, updates 
           <br />
-          and uncovering artificial propagation of news.
-        </p>
+          and more        
+          </p>
       </div>
     </div>
   </section>

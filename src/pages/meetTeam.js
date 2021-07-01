@@ -7,7 +7,7 @@ import pic11 from "../assets/images/pic11.jpg";
 const Test = props => (
   <Layout>
     <Helmet>
-      <title>Solacom Staff Introduction</title>
+      <title>Solacom -  Staff Introduction</title>
       <meta name="staff intro" content="Solacom Staff Introduction" />
     </Helmet>
 

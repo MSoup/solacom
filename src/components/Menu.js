@@ -12,11 +12,22 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/landing">
-            Omni Oculus Project
+          <Link onClick={props.onToggleMenu} to="https://solanets.com/wp/">
+            Japanese Site
           </Link>
         </li>
         <li>
+          <Link onClick={props.onToggleMenu} to="/landing">
+            Blog
+          </Link>
+        </li>
+
+        <li>
+          <Link onClick={props.onToggleMenu} to="/contact">
+            Contact
+          </Link>
+        </li>
+        {/* <li>
           <Link onClick={props.onToggleMenu} to="/generic">
             Generic
           </Link>
@@ -30,17 +41,17 @@ const Menu = props => (
           <Link onClick={props.onToggleMenu} to="/test">
             Test
           </Link>
-        </li>
+        </li> */}
       </ul>
       <ul className="actions vertical">
-        <li>
-          <a href="/contact" className="button special fit">
-            Contact Us
+        {/* <li>
+          <a href="/jointeam" className="button special fit">
+            Work For Us!
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="#/" className="button fit">
-            Log In
+            Work For Us!
           </a>
         </li>
       </ul>

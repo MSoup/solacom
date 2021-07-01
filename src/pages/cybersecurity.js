@@ -6,7 +6,7 @@ import endPoint from '../assets/images/cybersecurity/endpoint_protection.jpeg'
 const Test = props => (
   <Layout>
     <Helmet>
-      <title>Test - Forty by HTML5 UP</title>
+      <title>Solacom - Cybersecurity</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 

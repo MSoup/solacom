@@ -8,7 +8,7 @@ import verticalFarming2 from "../assets/images/farm/verticalFarming2.jpg";
 const FarmAutomationPage = props => (
   <Layout>
     <Helmet>
-      <title>Farm Automation</title>
+      <title>Solacom - Farm Automation</title>
       <meta name="farm automation page" content="Solacom Farm Automation Project" />
     </Helmet>
 
