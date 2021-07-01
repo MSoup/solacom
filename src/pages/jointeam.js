@@ -72,7 +72,7 @@ const Test = props => (
             </div>
             </div>
 
-            <h3>Software Developer (Trial Period -> Full Time)</h3>
+            <h3>Software Developer (Full Time)</h3>
               <p>
                 Minimum requirements:
               </p>
