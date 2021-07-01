@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const Test = props => (
   <Layout>
     <Helmet>
-      <title>Test - Forty by HTML5 UP</title>
+      <title>Solacom - Systems Engineering</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 

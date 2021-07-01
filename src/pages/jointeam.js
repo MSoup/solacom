@@ -2,12 +2,12 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
+import banner from '../assets/images/joinus/banner.jpeg'
 
 const Test = props => (
   <Layout>
     <Helmet>
-      <title>Test - Forty by HTML5 UP</title>
+      <title>Solacom - Join The Team</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 
@@ -15,42 +15,77 @@ const Test = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>TEST</h1>
+            <h1>We are hiring!</h1>
           </header>
           <span className="image main">
-            <img src={pic11} alt="" />
+            <img src={banner} alt="" />
           </span>
+          <h2>Why work for Sola.com?</h2>
+          <p>At Sola.com, we are a laid back working environment. We do not abide by many of the traditional Japanese work culture--for example, we do not enforce a dress code, and there is no mandatory overtime. We respect that each and every employee should value their health above their work.</p>
+          <h2>Can you code? Are you eager and willing to learn?</h2>
           <p>
-            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-            mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor
-            sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet,
-            fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit.
-            Donec urna ex, lacinia in purus ac, pretium pulvinar mauris.
-            Curabitur sapien risus, commodo eget turpis at, elementum convallis
-            elit. Pellentesque enim turpis, hendrerit.
+            Below are the positions we are hiring for:
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
-          <p>
-            Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
-            Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
-            Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien
-            risus, commodo eget turpis at, elementum convallis elit.
-            Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
-          </p>
+
+          <div className="grid-wrapper">
+            <div className="col-6">
+              <h3>Junior Software Developer (Contract)</h3>
+              <p>
+                Minimum requirements:
+              </p>
+              <ul>
+                <li>Japanese Language Proficiency (ability to speak at a basic level)</li>
+                <li>Autonomous</li>
+                <li>Eager to Learn</li>
+              </ul>
+              <p>
+                Preferred:
+              </p>
+              <ul>
+                <li>Business Japanese Language Proficiency</li>
+                <li>Python</li>
+                <li>System engineering experience</li>
+                <li>Cyber security experience</li>
+                <p>*Note: Salaries and conditions to be discussed upon interview</p>
+              </ul>
+            </div>
+            
+            <div className="col-6">
+              <h3>Intern (Fixed term)</h3>
+              <p>
+                Minimum requirements:
+              </p>
+              <ul>
+                <li>Able to come regularly at a fixed time</li>
+                <li>Autonomous</li>
+                <li>Eager to Learn (some coding experience)</li>
+              </ul>
+              <p>
+                Preferred:
+              </p>
+              <ul>
+                <li>Business Japanese Language Proficiency</li>
+                <li>Python</li>
+                <li>Java</li>
+                <p>*Note: allowances will not be provided for the duration of the internship</p>
+              </ul>
+            </div>
+            </div>
+
+            <h3>Software Developer (Trial Period -> Full Time)</h3>
+              <p>
+                Minimum requirements:
+              </p>
+              <ul>
+                <li>Japanese Language Proficiency (ability to speak at a business level)</li>
+                <li>Autonomous</li>
+                <li>Domain knowledge in a scripting language</li>
+                <li>1+ year of relevant industry experience</li>
+                <p>*Note: Salaries and conditions to be discussed upon interview</p>
+
+              </ul>
+
+            
         </div>
       </section>
     </div>
