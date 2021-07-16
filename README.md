@@ -1,5 +1,9 @@
 # Solacom Report 
 
+## Preview
+
+https://solacom.gatsbyjs.io/
+
 ## Abstract
 
 The *Sola.com English Concept Site* is a project I, Daven Lu, created as an intern at Sola.com. The below is the conditions of the internship:
@@ -26,10 +30,6 @@ My motives for creating this website are three-fold:
 ## Hosting
 
 GatsbyCloud
-
-## Preview
-
-https://solacom.gatsbyjs.io/
 
 ## Website Guide
 
