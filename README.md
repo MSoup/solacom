@@ -23,6 +23,10 @@ My motives for creating this website are three-fold:
 2. Many people viewing the Sola.com website are not native level Japanese speakers
 3. I wanted to give back to Sola.com for the opportunity to intern with the company
 
+## Hosting
+
+
+
 ## Preview
 
 URL_HERE
@@ -55,11 +59,12 @@ https://github.com/codebushi/gatsby-starter-forty
 
 
 ## What I learned
-
+Bootstrap and React play nicely together. React allows one to create reusable modules and Bootstrap lets me decorate them very quickly. 
+Using a boilerplate meant that I could spend less time making things from scratch and more time organizing an existing template. 
 
 
 ## Challenges
-
+I had to learn how routing worked using GatsbyJS. It took a few tries, but once it worked, creating pages became very easy. 
 
 
 ## Other Contributions to Sola.com
