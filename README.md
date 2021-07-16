@@ -13,7 +13,7 @@ The *Sola.com English Concept Site* is a project I, Daven Lu, created as an inte
 | Purpose                 | Programming Skill Development                       |
 | Tasks                   | Scripting, web development, python, openCV, reactJS |
 | Final Project           | Remake Sola.com website using web frameworks        |
-| Final Project URL       | URL_HERE                                            |
+| Final Project URL       | https://solacom.gatsbyjs.io/                        |
 
 ## Purpose
 
@@ -25,11 +25,11 @@ My motives for creating this website are three-fold:
 
 ## Hosting
 
-
+GatsbyCloud
 
 ## Preview
 
-URL_HERE
+https://solacom.gatsbyjs.io/
 
 ## Website Guide
 
