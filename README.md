@@ -157,7 +157,13 @@ I assisted a fellow intern with learning python and its associated libraries. (P
 
 ## Using The Site
 
-1. Making new pages
+1. Changing the Codebase
+
+   1. Fork the repository via `git@github.com:MSoup/solacom.git`
+   2. Navigate to the main directory `~solacom/`
+   3. Type the following into the command line: `gatsby develop`
+
+2. Making new pages
 
    Making new pages is simple! Simply create a React component in `src/pages`. Let's walk through it together:
 
@@ -180,7 +186,7 @@ I assisted a fellow intern with learning python and its associated libraries. (P
 
       ``` <Link to="/test-page" className="link primary"></Link>```
 
-2. Adding buttons
+3. Adding buttons
 
    1. There are two types of buttons, regular and special. Here is an example of both of them in use:
 
@@ -213,10 +219,41 @@ I assisted a fellow intern with learning python and its associated libraries. (P
 
    2. Consult elements.js or the gatsbyJS documentation for more information on how to change the styling of buttons.
 
-3. Making blog posts
+4. Making blog posts
 
-   1. To make blog posts, you simply go to (1) to make a new page, and link to it from `src/landing.js`. 
+   1. To make blog posts, you simply go to (2) to make a new page, and link to it from `src/landing.js`. 
    2. Remember to edit landing.js to change the preview text/formatting.
+
+## Navigation
+
+Below is a list of all the pages I published:
+
+```
+404.js  
+contact.js  
+cybersecurity.js  
+elements.js  
+farmAutomation.js  
+generic.js  
+index.js  
+jointeam.js  
+landing.js  
+meetTeam.js  
+omnioculus.js  
+systemengineering.js  
+test.js
+
+Total: 13 pages
+```
+
+Below is a list of all of the components I published:
+
+```
+Banner.js  BannerLanding.js  Contact.js  Footer.js  Header.js  layout.js  Menu.js
+
+Total: 7 pages
+```
+
 
 
 ## CSS Grid
