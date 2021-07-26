@@ -155,6 +155,69 @@ I simply created pages in `src/pages`.
 
 I assisted a fellow intern with learning python and its associated libraries. (Pandas, numpy, opencv).
 
+## Using The Site
+
+1. Making new pages
+
+   Making new pages is simple! Simply create a React component in `src/pages`. Let's walk through it together:
+
+   1. Copy a random page, for example `src/meetTeam.js`
+
+   2. Paste and rename it, for example to `src/test-page.js`
+
+   3. Rename the helmet section as needed, for example:
+
+      ```jsx
+          <Helmet>
+            <title>Solacom -  Test Page</title>
+            <meta name="Test Page" content="Solacom Adding Extra Pages" />
+          </Helmet>
+      ```
+
+   4. Go to `src/elements.js` to find how to properly format within this theme. Alternatively, consult the [gatsby documentation](https://www.gatsbyjs.com/docs/) for more detailed information to achieve what you want.
+
+   5. Link to this new page. An example of a gatsbyJS link route might be
+
+      ``` <Link to="/test-page" className="link primary"></Link>```
+
+2. Adding buttons
+
+   1. There are two types of buttons, regular and special. Here is an example of both of them in use:
+
+      ```jsx
+                    <ul className="actions">
+                      <li>
+                        <a href="#/" className="button special">
+                          Default
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/" className="button">
+                          Default
+                        </a>
+                      </li>
+                    </ul>
+                    <ul className="actions small">
+                      <li>
+                        <a href="#/" className="button special small">
+                          Small
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#/" className="button small">
+                          Small
+                        </a>
+                      </li>
+                    </ul>
+      ```
+
+   2. Consult elements.js or the gatsbyJS documentation for more information on how to change the styling of buttons.
+
+3. Making blog posts
+
+   1. To make blog posts, you simply go to (1) to make a new page, and link to it from `src/landing.js`. 
+   2. Remember to edit landing.js to change the preview text/formatting.
+
 
 ## CSS Grid
 
