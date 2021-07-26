@@ -27,21 +27,6 @@ const Menu = props => (
             Contact
           </Link>
         </li>
-        {/* <li>
-          <Link onClick={props.onToggleMenu} to="/generic">
-            Generic
-          </Link>
-        </li>
-        <li>
-          <Link onClick={props.onToggleMenu} to="/elements">
-            Elements
-          </Link>
-        </li>
-        <li>
-          <Link onClick={props.onToggleMenu} to="/test">
-            Test
-          </Link>
-        </li> */}
       </ul>
       <ul className="actions vertical">
         {/* <li>

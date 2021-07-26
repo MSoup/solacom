@@ -7,6 +7,9 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
+// THIS PAGE IS MEANT AS A GUIDE TO HELP YOU MODIFY EXISTING PAGES AND ADD NEW ONES
+// DO NOT PUBLISH
+
 const Elements = props => (
   <Layout>
     <Helmet>

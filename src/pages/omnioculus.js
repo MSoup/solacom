@@ -8,7 +8,7 @@ const Test = props => (
   <Layout>
     <Helmet>
       <title>Solacom - Omni Oculus</title>
-      <meta name="description" content="Generic Page" />
+      <meta name="description" content="Omnioculus" />
     </Helmet>
 
     <div id="main" className="alt">

@@ -8,7 +8,7 @@ const Test = props => (
   <Layout>
     <Helmet>
       <title>TEST PAGE</title>
-      <meta name="description" content="Generic Page" />
+      <meta name="description" content="Test Page" />
     </Helmet>
 
     <div id="main" className="alt">

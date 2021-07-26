@@ -5,10 +5,10 @@ const Contact = props => (
     <div className="inner">
       <section>
         <h1>Contact Us</h1>
-        <form method="post" action="#">
+        <form method="post" action="https://getform.io/f/f8b36190-d152-41f5-9996-828c8d0bd66e">
           <div className="field half first">
             <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required />
           </div>
           <div className="field half">
             <label htmlFor="email">Email</label>

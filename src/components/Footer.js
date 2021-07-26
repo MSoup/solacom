@@ -8,6 +8,9 @@ const Footer = props => (
         <li>
           Original Design: <a href="https://html5up.net">HTML5 UP</a>
         </li>
+        <li>
+          Made by <a href="https://github.com/msoup">Daven Lu</a> 
+        </li>
       </ul>
     </div>
   </footer>
