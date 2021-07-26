@@ -14,16 +14,17 @@ Preview URL: https://solacom.gatsbyjs.io/
 
 The *Sola.com English Concept Site* is a project I created as an intern at Sola.com. The below is the conditions of the internship:
 
-| Internship Details      |                                                     |
-| ----------------------- | --------------------------------------------------- |
-| Intern Name             | Daven Lu                                            |
-| Internship Company Name | Sola.com                                            |
-| Internship Duration     | March 2021 - August 2021 (6 months)                 |
-| Team Size               | 1 (Solo Project)                                    |
+| Internship Details      |                                                           |
+| ----------------------- | --------------------------------------------------------- |
+| Intern Name             | Daven Lu                                                  |
+| Github                  | https://github.com/msoup                                  |
+| Internship Company Name | Sola.com                                                  |
+| Internship Duration     | March 2021 - August 2021 (6 months)                       |
+| Team Size               | 1 (Solo Project)                                          |
 | Purpose                 | Skills Development, Making Site for Non-Japanese Audience |
-| Tasks                   | Scripting, web development, python, openCV, reactJS |
-| Final Project           | Remake Sola.com website using web frameworks        |
-| Final Project URL       | https://solacom.gatsbyjs.io/                        |
+| Tasks                   | Scripting, web development, python, openCV, reactJS       |
+| Final Project           | Remake Sola.com website using web frameworks              |
+| Final Project URL       | https://solacom.gatsbyjs.io/                              |
 
 ## Purpose
 
@@ -73,11 +74,19 @@ https://github.com/codebushi/gatsby-starter-forty
 
    Choosing a host based on where edge networks are located are important. Gatsby Cloud uses the fastly infastructure, which is why even an image-heavy site can load very fast with free hosting.
 
+4. Form building
+
+   I used the API endpoint from [getform.io](getform.io) in order to have a seamless contact form. This is because HTML inherently is prone to attack vectors, so using an established backend has three benefits:
+
+   1. No backend required. This is nice because it keeps our application light and portable.
+   2. Move security handling to third party. This can be a con, but for the purposes of a static website, it is nice to keep components modular.
+   3. Contact form requests are sent to a centralized server and are separate from the company email. This allows for better separation between direct inquiries and form contact inquiries. Alert E-mails can be set up to be sent to the email service that is used most often. For example, [info@solanets.com](mailto: info@solanets.com). 
+
 
 
 
 ## Challenges
-I had to learn how **routing** worked using GatsbyJS. It took a few tries, but once it worked, creating pages became very easy. 
+I had to learn how **routing** worked using GatsbyJS. The following were my observations:
 
 Traditionally, routing works like this:
 
