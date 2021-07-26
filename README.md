@@ -44,9 +44,9 @@ Benefits:
 2. Simplifies content collaboration. Gatsby Preview lets you see changes instantly and holistically.
 3. Removes the hassle of maintaining separate infrastructure to add dynamic functionality to a Gatsby site
 
-## Credits
+If you wish to deploy the site build to a different CDN host, Gatsby Cloud can automatically integrate with most of them. See the picture below:
 
-This website would not be possible without the boilerplate and theme created by HTML5 UP. 
+![Hosts](Hosts.png)
 
 ### Theme
 HTML5 UP allows people to use their website templates to create seamless websites that are:
@@ -55,10 +55,6 @@ HTML5 UP allows people to use their website templates to create seamless website
 - built on HTML5 and CSS3
 - super customizable
 - **FREE** under the Creative Commons
-
-### Boilerplate
-Can be found here:  
-https://github.com/codebushi/gatsby-starter-forty
 
 
 ## What I learned
@@ -177,3 +173,9 @@ Here is an example of using the grid, for a 3 column layout:
     </div>
 </div>
 ```
+
+## Credits
+
+This website would not be possible without the boilerplate and theme created by HTML5 UP. 
+
+The boilerplate can be found [here](https://github.com/codebushi/gatsby-starter-forty).
