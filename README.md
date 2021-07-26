@@ -46,7 +46,7 @@ Benefits:
 
 If you wish to deploy the site build to a different CDN host, Gatsby Cloud can automatically integrate with most of them. See the picture below:
 
-![Hosts](Hosts.png)
+![Hosts](Hosts.PNG)
 
 ### Theme
 HTML5 UP allows people to use their website templates to create seamless websites that are:
