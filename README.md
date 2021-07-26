@@ -4,11 +4,13 @@
 
 Daven Lu
 
+## Project URL
+
+https://solacom.gatsbyjs.io/
+
 ## Preview
 
 ![Homepage](homepage.gif)
-
-Preview URL: https://solacom.gatsbyjs.io/
 
 ## Abstract
 
