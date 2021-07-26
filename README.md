@@ -1,20 +1,26 @@
 # Solacom Report 
 
+## Author
+
+Daven Lu
+
 ## Preview
 
-https://solacom.gatsbyjs.io/
+![Homepage](homepage.gif)
+
+Preview URL: https://solacom.gatsbyjs.io/
 
 ## Abstract
 
-The *Sola.com English Concept Site* is a project I, Daven Lu, created as an intern at Sola.com. The below is the conditions of the internship:
+The *Sola.com English Concept Site* is a project I created as an intern at Sola.com. The below is the conditions of the internship:
 
 | Internship Details      |                                                     |
 | ----------------------- | --------------------------------------------------- |
 | Intern Name             | Daven Lu                                            |
 | Internship Company Name | Sola.com                                            |
 | Internship Duration     | March 2021 - August 2021 (6 months)                 |
-| Team                    | 1 (Solo Project)                                    |
-| Purpose                 | Programming Skill Development                       |
+| Team Size               | 1 (Solo Project)                                    |
+| Purpose                 | Skills Development, Making Site for Non-Japanese Audience |
 | Tasks                   | Scripting, web development, python, openCV, reactJS |
 | Final Project           | Remake Sola.com website using web frameworks        |
 | Final Project URL       | https://solacom.gatsbyjs.io/                        |
@@ -29,17 +35,13 @@ My motives for creating this website are three-fold:
 
 ## Hosting
 
-GatsbyCloud
+GatsbyCloud: Gatsby Cloud is a unified cloud platform specifically built for the Gatsby framework that combines a modern developer toolset and workflow with an optimized, global edge network for an unbeatable Gatsby experience.
 
-## Website Guide
+Benefits: 
 
-#### Homepage
-
-![Homepage](homepage.gif) 
-
-The homepage consists of a clean dark overlay 
-
-
+1. Dramatically reduces build & deploy times
+2. Simplifies content collaboration. Gatsby Preview lets you see changes instantly and holistically.
+3. Removes the hassle of maintaining separate infrastructure to add dynamic functionality to a Gatsby site
 
 ## Credits
 
@@ -59,17 +61,92 @@ https://github.com/codebushi/gatsby-starter-forty
 
 
 ## What I learned
-Bootstrap and React play nicely together. React allows one to create reusable modules and Bootstrap lets me decorate them very quickly. 
-Using a boilerplate meant that I could spend less time making things from scratch and more time organizing an existing template. 
+1. Bootstrap and React:
+
+   Bootstrap and React play nicely together. React allows one to create reusable modules and Bootstrap lets me decorate them very quickly. Using the above boilerplate, I was able to make adjustments and change the site's flavor to suit what I wanted. It also meant that I could spend less time making things from scratch and more time organizing an existing template. 
+
+2. Hosting
+
+   I learned about the advantages and disadvantages of various hosts. It made sense to use Gatsby Cloud for a GatsbyJS site, as Gatsby Cloud was designed for sites built with GatsbyJS. 
+
+3. Edge Networks
+
+   Choosing a host based on where edge networks are located are important. Gatsby Cloud uses the fastly infastructure, which is why even an image-heavy site can load very fast with free hosting.
+
+
 
 
 ## Challenges
-I had to learn how routing worked using GatsbyJS. It took a few tries, but once it worked, creating pages became very easy. 
+I had to learn how **routing** worked using GatsbyJS. It took a few tries, but once it worked, creating pages became very easy. 
 
+Traditionally, routing works like this:
+
+#### Traditional Routing
+
+```
+my-sample-project/
+├── README.md
+├── index.html
+├── html
+│   ├── contact.html
+│   └── about.html
+├── css
+│   ├── contact.css
+│   ├── about.css
+│   └── styles.css
+└── js
+    ├── jquery-1.11.2.js
+    └── scripts.js
+```
+
+With traditional routing, web pages are tucked away in nested folders, with an index.html in the top level folder so that the browser knows to go to index.html first. When linking between pages, you simply need an <a> tag, such as the following:
+
+```html
+  <body>
+    ...
+    <a href="html/contact.html">Contact Information</a>
+    ...
+  </body>
+```
+
+
+
+#### Routing with GatsbyJS
+
+With GatsbyJS, you are working with a single page application, which means that there is only one html file, usually with some sort of entryway to serve your entire web application.
+
+I positioned my file structure as follows:
+
+```
+// reduced for simplicity
+
+solacom/
+├── README.md
+├── public  <- index located here 
+│   ├── index.html
+│   └── icons
+└── src     <- all code located here
+    ├── assets <- CSS here
+    ├── components <- reusable components (banner.js, footer.js, header.js)
+    ├── pages <- all pages (contact.js, elements.js, 404.js, generic.js, etc)
+    └── styles.css
+```
+
+Routes can be created in three ways:
+
+- By creating React components in `src/pages`
+- By using the [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/) to programmatically create pages from GraphQL and to create client-only routes.
+- By implementing the API [`createPages`](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/#createPages) in your site’s `gatsby-node.js`. ([Plugins](https://www.gatsbyjs.com/docs/plugins/) can also implement `createPages` and create pages for you.)
+
+Source: https://www.gatsbyjs.com/docs/reference/routing/creating-routes/
+
+I simply created pages in `src/pages`.
 
 ## Other Contributions to Sola.com
 
+**Mentor for new intern**
 
+I assisted a fellow intern with learning python and its associated libraries. (Pandas, numpy, opencv).
 
 
 ## CSS Grid
