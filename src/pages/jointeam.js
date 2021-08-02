@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import banner from '../assets/images/joinus/banner.jpeg'
+import solacombanner from '../assets/images/joinus/solacombanner.jpg'
 
 const Test = props => (
   <Layout>
@@ -18,7 +19,7 @@ const Test = props => (
             <h1>We are hiring!</h1>
           </header>
           <span className="image main">
-            <img src={banner} alt=""/>
+            <img src={solacombanner} alt=""/>
           </span>
           <h2>Why work for Sola.com?</h2>
           <p>At Sola.com, we are a laid back working environment. We do not abide by many of the traditional Japanese work culture--for example, we do not enforce a dress code, and there is no mandatory overtime. We respect that each and every employee should value their health above their work.</p>
@@ -80,7 +81,7 @@ const Test = props => (
                 <li>Japanese Language Proficiency (ability to speak at a business level)</li>
                 <li>Autonomous</li>
                 <li>Domain knowledge in a scripting language</li>
-                <li>1+ year of relevant industry experience</li>
+                <li>1+ year of relevant industry experience with Java / C / PHP</li>
                 <p>*Note: Salaries and conditions to be discussed upon interview</p>
 
               </ul>
