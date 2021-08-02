@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
+import workinmiyagi from '../assets/images/workinmiyagi.jpeg'
 import pic10 from '../assets/images/pic10.jpg'
 
 const Landing = (props) => (
@@ -27,27 +27,10 @@ const Landing = (props) => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
-                    {/* BLOG REDIRECTS HERE */}
-                    <Link to="/blog/2021-08-02" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>This is a blog post</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                {/* BLOG REDIRECTS HERE */}
-                                <li><Link to="/blog/2021-08-02" className="button">Daven's Blog</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+
                 <section>
                     <Link to="/blog/2021-08-03" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={workinmiyagi} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
@@ -68,11 +51,30 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Blog Post 3</h3>
+                                <h3>Blog Post 2</h3>
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    {/* BLOG REDIRECTS HERE */}
+                    <Link to="#/" className="image">
+                        <img src={pic08} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>This is a blog post</h3>
+                            </header>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <ul className="actions">
+                                {/* BLOG REDIRECTS HERE */}
+                                <li><Link to="#/" className="button">Read More</Link></li>
                             </ul>
                         </div>
                     </div>
