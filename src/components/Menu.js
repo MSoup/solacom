@@ -35,7 +35,7 @@ const Menu = props => (
           </a>
         </li> */}
         <li>
-          <a href="#/" className="button fit">
+          <a href="/../jointeam" className="button fit">
             Work For Us!
           </a>
         </li>

@@ -46,17 +46,17 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/blog/2021-08-03" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Blog Post 2</h3>
+                                <h3>We were featured on "Work in Miyagi!"</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Sola.com President Takahashi and full time staff member from Malaysia, Jackson Hue, were featured on "Work In Miyagi."</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/blog/2021-08-03" className="button">Read more</Link></li>
                             </ul>
                         </div>
                     </div>
